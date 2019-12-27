@@ -1,0 +1,6 @@
+language: go
+go:
+  - 1.13.3
+
+script:
+  - RACE=1 make test
